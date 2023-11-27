@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    transition: background-color 0.3s ease-in-out;
+}
+
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    
+    text-align: center;
+}
+
+.main-content{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: yellowgreen;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: aqua;
+}
+
+.image-container{
+    align-items: center;
+}
+
+.image-container img{
+    display:block ;
+    margin: 0 auto;
+}
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    background-image: url("https://www.foodnavigator.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/foodnavigator.com/news/science/eat-lancet-diet-increased-intake-of-animal-source-foods-recommended-by-researchers-to-fill-micronutrient-gap/16247101-1-eng-GB/EAT-Lancet-diet-Increased-intake-of-animal-source-foods-recommended-by-researchers-to-fill-micronutrient-gap.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 120px;
+    -webkit-text-fill-color: rgb(139, 240, 184);
+    text-shadow: -1.5px -1.5px 0 black,
+    -1.5px -1.5px 0 black,
+    -1.5px -1.5px 0 black,
+    -1.5px -1.5px 0 black;
+}
+
+section:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #333;
+    color: yellowgreen;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    animation: fadeIn 1s ease-in-out;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

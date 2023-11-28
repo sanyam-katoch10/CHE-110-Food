@@ -15,7 +15,7 @@ header {
 }
 
 .main-content{
-    max-width: 800px;
+    max-width: auto;
     margin: 0 auto;
     text-align: center;
     
@@ -58,7 +58,7 @@ section {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 120px;
+    padding: auto;
     -webkit-text-fill-color: rgb(139, 240, 184);
     text-shadow: -1.5px -1.5px 0 black,
     -1.5px -1.5px 0 black,
